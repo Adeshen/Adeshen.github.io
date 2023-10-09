@@ -34,8 +34,8 @@ url: 'https://Adeshen.github.io'
 github:
   username: Adeshen             # change to your github username
 
-twitter:
-  username: adeshen            # change to your twitter username
+#twitter:
+ # username:             # change to your twitter username
 
 social:
   # Change to your full name.
@@ -44,8 +44,8 @@ social:
   email: 878600556@qq.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://www.zhihu.com/people/yun-ming-76-16      # change to your twitter homepage
+    - https://github.com/Adeshen       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://raw.githubusercontent.com/cotes2020/chirpy-images/main'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: 'https://avatars.githubusercontent.com/u/75004450?s=400&u=4764a84267fa2489f5fc0bb35d3d38b3f0a945c7&v=4'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
