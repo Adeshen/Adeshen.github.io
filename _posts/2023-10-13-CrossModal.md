@@ -5,9 +5,10 @@ date: 2023-10-13 18:41:00 -0500
 categories: [Cv,Text2image]
 tags: [cross-Modal,text2image]
 ---
-[[2303.12501] Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval](file:///D:/SUSYstudy/grade4-1/LLM_video/storage/EW27Z4PQ/2303.html)
 
 # 望文生义
+
+[[2303.12501] Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval](file:///D:/SUSYstudy/grade4-1/LLM_video/storage/EW27Z4PQ/2303.html)
 
 根据自然语言所给出的目标，通过发现多模态中隐式关系，进行行人检索
 
