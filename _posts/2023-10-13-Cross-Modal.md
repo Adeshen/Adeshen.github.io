@@ -2,7 +2,7 @@
 title: 阅读笔记 Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval
 author: adeshen
 date: 2023-10-13 18:41:00 -0500
-categories: [cv,text2image]
+categories: [Cv,Text2image]
 tags: [cross-Modal,text2image]
 ---
 [[2303.12501] Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval](file:///D:/SUSYstudy/grade4-1/LLM_video/storage/EW27Z4PQ/2303.html)
