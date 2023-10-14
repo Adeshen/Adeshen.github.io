@@ -5,8 +5,8 @@ order: 4
 ---
 # education
 
-- **2024--2027**  Master in AI school of SYSU
-- **2020--2024**   Bachelor in SSE school of SYSU
+- **2024--2027**  Master in the School of Artificial Intelligence , Sun Yat-sen University
+- **2020--2024**  Bachelor in the School of Software Engineering , Sun Yat-sen University
 
 # internship
 
