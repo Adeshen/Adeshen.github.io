@@ -1,10 +1,11 @@
 ---
 title: 阅读笔记 Video-LLaMA
 author: adeshen
-date: 2023-10-16 11:17:00 -0500
+date: 2023-10-16 11:17:00 -0000
 categories: [Llm,Cv]
 tags: [cross-Modal,video-understanding]
 ---
+
 # 望文生义
 
 [[2306.02858] Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding (arxiv.org)](https://arxiv.org/abs/2306.02858)
