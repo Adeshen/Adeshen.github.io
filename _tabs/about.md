@@ -9,7 +9,7 @@ order: 4
 - **2020--2024**  Bachelor in the School of Software Engineering , Sun Yat-sen University
 
 # internship
-
+- **2024.5--Now** AI infra research intern in Tencent Game
 - **2022.7--2022.11** backend developer in Tencent Cloud Game
 - **2023.7--2023.9**  cpp developer in Wizard Investment
 
