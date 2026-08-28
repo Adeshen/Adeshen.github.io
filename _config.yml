@@ -28,7 +28,7 @@ tagline: AI Systems · HPC · Quant   # it will display as the sub-title
 description: >-                        # used by seo meta and the atom feed
   Yuedong Zhong is a Ph.D. student in Computer Science and Engineering at CUHK,
   working on efficient and reliable AI systems, high-performance computing,
-  and quantitative research.
+  AI agents, and quantitative research.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://Adeshen.github.io'

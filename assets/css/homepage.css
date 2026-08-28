@@ -583,7 +583,8 @@ blockquote {
 
 .venue { color: white; background: #1264a3; }
 .venue-ase { background: #7d3b89; }
-.venue-arxiv { background: #a33636; }
+.venue-iclr { background: #a33636; }
+.venue-arxiv { background: #5d6278; }
 .award { color: #dcffb5; background: rgba(185, 241, 124, 0.1); }
 
 .publication h3 {
