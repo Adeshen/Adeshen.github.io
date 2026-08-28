@@ -6,11 +6,11 @@ order: 4
 
 # About
 
-I am a Ph.D. student in Computer Science and Engineering at The Chinese University of Hong Kong (CUHK). My research interests span AI systems, high-performance computing, reliable LLM systems, and quantitative research. Before starting my Ph.D., I studied at Sun Yat-sen University (SYSU) and worked as a research assistant at CUHK. I also work part-time on crypto quantitative research.
+I am a first-year Ph.D. student in Computer Science and Engineering at The Chinese University of Hong Kong (CUHK), starting in 2026, advised by [Prof. Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/). My research interests span AI systems, high-performance computing, reliable LLM systems, and quantitative research. Before starting my Ph.D., I studied at Sun Yat-sen University (SYSU) and worked as a research assistant at CUHK. I also work part-time on crypto quantitative research.
 
 # Education
 
-- **Present** — Ph.D. in Computer Science and Engineering, The Chinese University of Hong Kong
+- **2026–Present** — Ph.D. in Computer Science and Engineering, The Chinese University of Hong Kong; advisor: [Prof. Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/)
 - **2020–2024** — Bachelor's degree, School of Software Engineering, Sun Yat-sen University
 
 # Selected publications
@@ -21,7 +21,7 @@ I am a Ph.D. student in Computer Science and Engineering at The Chinese Universi
 
 # Experience
 
-- Ph.D. Student, Department of Computer Science and Engineering, CUHK
+- **2026–Present** — First-year Ph.D. Student, Department of Computer Science and Engineering, CUHK
 - Research Assistant, CUHK
 - Part-time crypto quantitative research
 - **May 2024–Nov. 2024** — AI Infrastructure Research Intern, Tencent Games
