@@ -23,8 +23,8 @@ I am a first-year Ph.D. student in Computer Science and Engineering at The Chine
 # Experience
 
 - **2026–Present** — First-year Ph.D. Student, Department of Computer Science and Engineering, CUHK
-- **Mar. 2026–Jul. 2026** — Research Assistant, CUHK; reliable LLM systems, AI agents, and multi-agent fault diagnosis
-- **Mar. 2025–Sep. 2025** — Research Assistant, CUHK; efficient LLM inference, retrieval-augmented systems, and AI infrastructure
+- **Mar. 2026–Jul. 2026** — Research Assistant, CUHK; LLM system bug detection and empirical failure analysis
+- **Mar. 2025–Sep. 2025** — Research Assistant, CUHK; Ops agents for cloud operations with retrieval-augmented generation
 - **May 2024–Nov. 2024** — AI Infrastructure Research Intern, Tencent Games
 - **Jul. 2023–Sep. 2023** — C++ Developer Intern, Wizard Investment
 - **Jul. 2022–Nov. 2022** — Backend Developer Intern, Tencent Cloud Games
