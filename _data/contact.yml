@@ -4,6 +4,10 @@
   type: github
   icon: 'fab fa-github'
 -
+  type: zhihu
+  icon: 'fab fa-zhihu'
+  url: 'https://www.zhihu.com/people/yun-ming-76-16'
+-
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab

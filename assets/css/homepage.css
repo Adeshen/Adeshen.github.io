@@ -341,7 +341,7 @@ h1 span {
 
 .profile-links {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.45rem;
   padding-top: 0.4rem;
 }
