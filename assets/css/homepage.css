@@ -91,6 +91,13 @@ a { color: inherit; }
   letter-spacing: 0.02em;
 }
 
+.brand-mark img {
+  display: block;
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -487,6 +494,13 @@ h1 span {
   margin-bottom: 0;
   color: var(--muted);
   font-size: 0.84rem;
+}
+
+.timeline .role-detail {
+  margin-top: 0.25rem;
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  line-height: 1.45;
 }
 
 .school {

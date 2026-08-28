@@ -23,15 +23,14 @@ timezone: Asia/Shanghai
 
 title: Yuedong Zhong                          # the main title
 
-tagline: AI Systems · HPC · Quant   # it will display as the sub-title
+tagline: AI Systems · HPC · AI Agents   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Yuedong Zhong is a Ph.D. student in Computer Science and Engineering at CUHK,
-  working on efficient and reliable AI systems, high-performance computing,
-  AI agents, and quantitative research.
+  Yuedong Zhong is a CUHK CSE Ph.D. student advised by Prof. Michael R. Lyu,
+  researching reliable AI systems, high-performance computing, and AI agents.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://Adeshen.github.io'
+url: 'https://adeshen.github.io'
 
 github:
   username: Adeshen             # change to your github username
@@ -85,7 +84,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://raw.githubusercontent.com/cotes2020/chirpy-images/main'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'https://avatars.githubusercontent.com/u/75004450?s=400&u=4764a84267fa2489f5fc0bb35d3d38b3f0a945c7&v=4'
+avatar: '/assets/img/profile-2026.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true

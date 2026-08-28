@@ -6,7 +6,7 @@ order: 4
 
 # About
 
-I am a first-year Ph.D. student in Computer Science and Engineering at The Chinese University of Hong Kong (CUHK), starting in 2026, advised by [Prof. Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/). My research interests span AI systems, high-performance computing, AI agents, reliable LLM systems, and quantitative research. Before starting my Ph.D., I studied at Sun Yat-sen University (SYSU) and worked as a research assistant at CUHK. I also work part-time on crypto quantitative research.
+I am a first-year Ph.D. student in Computer Science and Engineering at The Chinese University of Hong Kong (CUHK), starting in 2026, advised by [Prof. Michael R. Lyu](https://www.cse.cuhk.edu.hk/lyu/). My research interests span AI systems, high-performance computing, AI agents, reliable LLM systems, and quantitative research. Before starting my Ph.D., I studied at Sun Yat-sen University (SYSU) and completed research assistant appointments at CUHK in 2025 and 2026. I am also interested in crypto quantitative research.
 
 # Education
 
@@ -23,11 +23,11 @@ I am a first-year Ph.D. student in Computer Science and Engineering at The Chine
 # Experience
 
 - **2026–Present** — First-year Ph.D. Student, Department of Computer Science and Engineering, CUHK
-- **Mar. 2025–Jul. 2025** — Research Assistant, CUHK
-- Part-time crypto quantitative research
+- **Mar. 2026–Jul. 2026** — Research Assistant, CUHK; reliable LLM systems, AI agents, and multi-agent fault diagnosis
+- **Mar. 2025–Sep. 2025** — Research Assistant, CUHK; efficient LLM inference, retrieval-augmented systems, and AI infrastructure
 - **May 2024–Nov. 2024** — AI Infrastructure Research Intern, Tencent Games
-- **Jul. 2023–Sep. 2023** — C++ Developer, Wizard Investment
-- **Jul. 2022–Nov. 2022** — Backend Developer, Tencent Cloud Games
+- **Jul. 2023–Sep. 2023** — C++ Developer Intern, Wizard Investment
+- **Jul. 2022–Nov. 2022** — Backend Developer Intern, Tencent Cloud Games
 
 # Contact
 
