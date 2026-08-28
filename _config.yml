@@ -23,10 +23,12 @@ timezone: Asia/Shanghai
 
 title: Yuedong Zhong                          # the main title
 
-tagline: a love programing researcher   # it will display as the sub-title
+tagline: AI Systems · HPC · Quant   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Yuedong Zhong is a Ph.D. student in Computer Science and Engineering at CUHK,
+  working on efficient and reliable AI systems, high-performance computing,
+  and quantitative research.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://Adeshen.github.io'
@@ -40,12 +42,11 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name:  adeshen
-  email: 878600556@qq.com             # change to your email address
+  name: Yuedong Zhong
+  email: zhongyd6@mail2.sysu.edu.cn
   links:
     # The first element serves as the copyright owner's link
-    - https://www.zhihu.com/people/yun-ming-76-16      # change to your twitter homepage
-    - https://github.com/Adeshen       # change to your github homepage
+    - https://github.com/Adeshen
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

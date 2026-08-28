@@ -3,30 +3,32 @@ title: About Me
 icon: fas fa-info-circle
 order: 4
 ---
-# education
 
-- **2024--2027**  Master in the School of Artificial Intelligence , Sun Yat-sen University
-- **2020--2024**  Bachelor in the School of Software Engineering , Sun Yat-sen University
+# About
 
-# internship
+I am a Ph.D. student in Computer Science and Engineering at The Chinese University of Hong Kong (CUHK). My research interests span AI systems, high-performance computing, reliable LLM systems, and quantitative research. Before starting my Ph.D., I studied at Sun Yat-sen University (SYSU) and worked as a research assistant at CUHK. I also work part-time on crypto quantitative research.
 
-- **2025.2--Now** Research Assitant related to LLM applications at the Chinese University of Hong Kong
-- **2024.5--2024.12** AI infra research intern in Tencent Game
-- **2022.7--2022.11** backend developer in Tencent Cloud Game
-- **2023.7--2023.9**  cpp developer in Wizard Investment
+# Education
 
-# Project
-1. [GoSkinning](https://intl.gcloud.tencent.com/pages/products/AIClothing.html
-): GPU memory optimzation about LLM training, reducing memory consumption by 95% to support human-model-skinning from 30,000 to 200,000 vertices
-2. [vnpy_demo](https://github.com/Adeshen/vnpy_demo) draft-level project for quant framework.
-3. [One Bit Sparse Mul](https://github.com/Adeshen/OneBitSparseMul) try implement the sparse kernel for low-precsion gemm.
-4. [Rust-OnelineJudge](https://github.com/NorthSecond/Rust-OnlineJudge)A toy-level backend for an online judge system, written in Rust. This is the course design for our Rust course, done in groups. As the leader of the group, I was mainly responsible for handling the project structure, writing a part of back-end interfaces and solving some difficult problems.
+- **Present** — Ph.D. in Computer Science and Engineering, The Chinese University of Hong Kong
+- **2020–2024** — Bachelor's degree, School of Software Engineering, Sun Yat-sen University
 
+# Selected publications
 
-# scholarship
-- national endeavor fellowship
-- third prize scholarship
+1. **LLMGuard: Multi-Agent Fault Diagnosis for Reliable Language-Model-as-a-Service.** DSN 2026. [Conference](https://dsn2026.github.io/cpaccepted.html) · [DOI](https://doi.org/10.1109/DSN69566.2026.00018)
+2. **iKnow: an Intent-Guided Chatbot for Cloud Operations with Retrieval-Augmented Generation.** ASE 2025. ACM SIGSOFT Distinguished Paper Award. [Paper](https://jun-jie-huang.github.io/assets/papers/ase25_iknow.pdf) · [Code](https://github.com/Jun-jie-Huang/iKnow)
+3. **STBLLM: Breaking the 1-Bit Barrier with Structured Binary LLMs.** arXiv 2024. [Paper](https://arxiv.org/abs/2408.01803)
 
-# competition award
+# Experience
 
-- the first prize in Algorithm Competition Of SYSU
+- Ph.D. Student, Department of Computer Science and Engineering, CUHK
+- Research Assistant, CUHK
+- Part-time crypto quantitative research
+- **May 2024–Nov. 2024** — AI Infrastructure Research Intern, Tencent Games
+- **Jul. 2023–Sep. 2023** — C++ Developer, Wizard Investment
+- **Jul. 2022–Nov. 2022** — Backend Developer, Tencent Cloud Games
+
+# Contact
+
+- [GitHub](https://github.com/Adeshen)
+- zhongyd6 [at] mail2.sysu.edu.cn
