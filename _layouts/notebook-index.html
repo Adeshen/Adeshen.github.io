@@ -1,0 +1,51 @@
+---
+layout: notebook
+---
+{% assign notes = site.posts | where: 'notebook', page.notebook | sort: 'date' | reverse %}
+{% assign latest = notes | first %}
+<header class="notebook-hero">
+  <p class="kicker">{{ page.kicker }}</p>
+  <h1>{{ page.title }}<span>.</span></h1>
+  <p class="notebook-subtitle">{{ page.subtitle }}</p>
+  <p class="notebook-description">{{ page.description }}</p>
+  <div class="notebook-stats"><span><strong>{{ notes.size }}</strong> 篇记录</span><span>{% if latest %}最近更新 {{ latest.date | date: '%Y.%m.%d' }}{% else %}等待第一篇记录{% endif %}</span></div>
+</header>
+{% if latest %}
+<section class="latest-note" aria-labelledby="latest-title">
+  <div class="latest-label"><span class="kicker">Latest entry</span><time datetime="{{ latest.date | date_to_xmlschema }}">{{ latest.date | date: '%Y.%m.%d' }}</time></div>
+  <div>
+    <h2 id="latest-title"><a href="{{ latest.url | relative_url }}">{{ latest.title | escape }} <span aria-hidden="true">↗</span></a></h2>
+    <p>{{ latest.summary | default: latest.excerpt | strip_html | truncate: 180 | escape }}</p>
+    <div class="note-tags">{% for tag in latest.tags %}<span>{{ tag | escape }}</span>{% endfor %}</div>
+  </div>
+</section>
+{% endif %}
+<section class="notebook-archive" aria-labelledby="archive-title" data-notebook>
+  <div class="archive-heading"><h2 id="archive-title">全部记录 <span>The archive</span></h2><p data-result-count role="status" aria-live="polite">{{ notes.size }} 篇记录</p></div>
+  <form class="note-filters" role="search" hidden>
+    <label class="search-field">搜索<input type="search" name="q" placeholder="搜索标题、标签或正文…" autocomplete="off"></label>
+    <label>标签<select name="tag"><option value="">全部标签</option></select></label>
+    <label>年份<select name="year"><option value="">全部年份</option></select></label>
+    <label>状态<select name="status"><option value="">全部状态</option></select></label>
+    <button type="reset">清除筛选</button>
+  </form>
+  {% assign previous_month = '' %}
+  {% for note in notes %}
+    {% assign month = note.date | date: '%Y.%m' %}
+    {% if month != previous_month %}
+      {% unless forloop.first %}</div></section>{% endunless %}
+      <section class="archive-month" data-month><h3>{{ month }}</h3><div class="archive-entries">
+      {% assign previous_month = month %}
+    {% endif %}
+    <article class="note-entry" data-note data-year="{{ note.date | date: '%Y' }}" data-status="{{ note.status | default: '笔记' | escape }}" data-tags="{{ note.tags | jsonify | escape }}">
+      <div class="note-meta"><time datetime="{{ note.date | date_to_xmlschema }}">{{ note.date | date: '%m.%d' }}</time><span class="note-status">{{ note.status | default: '笔记' | escape }}</span></div>
+      <h4><a href="{{ note.url | relative_url }}">{{ note.title | escape }} <span aria-hidden="true">↗</span></a></h4>
+      <p>{{ note.summary | default: note.excerpt | strip_html | truncate: 180 | escape }}</p>
+      <div class="note-tags">{% for tag in note.tags %}<span>{{ tag | escape }}</span>{% endfor %}</div>
+      <div data-search-text hidden>{{ note.title | escape }} {{ note.tags | join: ' ' | escape }} {{ note.content | strip_html | escape }}</div>
+    </article>
+    {% if forloop.last %}</div></section>{% endif %}
+  {% endfor %}
+  <div class="notes-empty" data-empty {% if notes.size > 0 %}hidden{% endif %}><h3>{% if notes.size > 0 %}没有匹配的记录{% else %}这里将收录新的记录{% endif %}</h3><p>{% if notes.size > 0 %}试试其他关键词，或清除筛选查看全部内容。{% else %}从一个问题、一篇论文或一次实践开始。{% endif %}</p></div>
+</section>
+{{ content }}

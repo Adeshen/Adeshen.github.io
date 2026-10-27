@@ -1,4 +1,8 @@
 ---
+layout: note
+notebook: digest
+status: 阅读笔记
+summary: IRRA 论文阅读：文本到图像行人检索中的跨模态隐式关系推理与特征对齐。
 title: 阅读笔记 Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval
 author: adeshen
 date: 2023-10-13 18:41:00 -0500
@@ -8,7 +12,7 @@ tags: [cross-Modal,text2image]
 
 # 望文生义
 
-[[2303.12501] Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval](file:///D:/SUSYstudy/grade4-1/LLM_video/storage/EW27Z4PQ/2303.html)
+[[2303.12501] Cross-Modal Implicit Relation Reasoning and Aligning for Text-to-Image Person Retrieval](https://arxiv.org/abs/2303.12501)
 
 根据自然语言所给出的目标，通过发现多模态中隐式关系，进行行人检索
 

@@ -1,4 +1,8 @@
 ---
+layout: note
+notebook: digest
+status: 阅读笔记
+summary: Video-LLaMA 阅读记录：视频与音频编码、Q-Former，以及视听信息到语言模型的对齐。
 title: 阅读笔记 Video-LLaMA
 author: adeshen
 date: 2023-10-16 11:17:00 -0000

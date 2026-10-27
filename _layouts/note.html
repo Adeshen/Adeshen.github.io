@@ -1,0 +1,16 @@
+---
+layout: notebook
+---
+{% if page.notebook == 'digest' %}{% assign section_title = 'Paper Digest' %}{% assign section_url = '/digest/' %}{% else %}{% assign section_title = 'Tech Notes' %}{% assign section_url = '/tech/' %}{% endif %}
+<article class="note-detail">
+  <header class="note-header">
+    <a class="back-link" href="{{ section_url | relative_url }}">← {{ section_title }}</a>
+    <div class="note-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y.%m.%d' }}</time><span class="note-status">{{ page.status | default: '笔记' | escape }}</span></div>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.summary %}<p class="notebook-description">{{ page.summary | escape }}</p>{% endif %}
+    <div class="note-tags">{% for tag in page.tags %}<span>{{ tag | escape }}</span>{% endfor %}</div>
+    {% if page.paper_url %}<a class="paper-link" href="{{ page.paper_url | escape }}" target="_blank" rel="noreferrer">阅读原论文 ↗</a>{% endif %}
+  </header>
+  <div class="note-prose">{{ content }}</div>
+  <a class="back-link note-back" href="{{ section_url | relative_url }}">← 返回 {{ section_title }}</a>
+</article>

@@ -1,3 +1,23 @@
+## 个人主页与阅读笔记
+
+主页入口：`/` · 论文阅读：`/digest/` · 技术笔记与构思：`/tech/`。
+两个栏目按日期归档，支持正文搜索、标签、年份和状态组合筛选，筛选条件可通过 URL 分享。
+没有 JavaScript 时仍可浏览全部记录。
+
+### 新增内容
+
+1. 复制 `_templates/digest.md` 或 `_templates/tech.md` 到 `_posts/YYYY-MM-DD-short-slug.md`。
+2. 修改标题、日期、摘要、标签和正文。`notebook: digest` / `tech` 决定所属栏目；`layout: note` 使用与主页一致的阅读版式。
+3. `status` 可使用「阅读笔记」「学习笔记」「构思中」「实验中」「已完成」等文字，筛选项自动生成。`paper_url` 为可选原论文链接。
+4. 提交并推送到 `main` 后，现有 GitHub Pages workflow 自动构建发布。
+
+未准备公开的内容请放在 `_drafts/`；不要仅用「构思中」表示私有草稿，该状态会公开展示。
+日期晚于构建时间的文章默认不会发布。原有文章的 `/posts/:title/` 地址保持不变。
+
+本地预览：安装 Ruby 3.3 和 Bundler 后，执行 `bundle install` 和 `bundle exec jekyll serve`。
+
+---
+
 <div align="center">
 
   # Chirpy Jekyll Theme
